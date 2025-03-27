@@ -52,13 +52,14 @@ src/
    ```
 
 2. Execute o script para gerar embeddings dos produtos
-
+ ```bash
 - npx ts-node src/scripts/generateEmbedding.ts
-
+```
 3. Inicie o servidor:
+ ```bash
    npm run dev
-
-4. Faça uma requisição para a rota /explanation com o seguinte payload:
+```
+5. Faça uma requisição para a rota /explanation com o seguinte payload:
 ```
    {
    "context": "Descrição do que o usuário está buscando",
