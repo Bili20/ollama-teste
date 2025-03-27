@@ -1,0 +1,27 @@
+{
+  "name": "estudo-minio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^0.3.43",
+    "@langchain/ollama": "^0.2.0",
+    "@types/express": "^5.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mathjs": "^14.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "esm": "^3.2.25",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.2"
+  }
+}
