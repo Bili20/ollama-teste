@@ -11,7 +11,7 @@ Este projeto é um estudo que utiliza a ferramenta **Ollama** para simular um co
 ## Estrutura do Projeto
 
 ## Estrutura do Projeto
-
+```
 src/
 ├── index.ts # Ponto de entrada da aplicação
 ├── constants/
@@ -28,7 +28,7 @@ src/
 ├── services/
 │ ├── aiService.ts # Serviço para interagir com a IA
 │ └── productService.ts # Serviço para manipulação de produtos
-
+```
 ## Como Funciona
 
 1. **Entrada do Usuário**: O usuário envia um contexto e respostas (como categoria e preço máximo) para a API.
@@ -59,6 +59,7 @@ src/
    npm run dev
 
 4. Faça uma requisição para a rota /explanation com o seguinte payload:
+```
    {
    "context": "Descrição do que o usuário está buscando",
    "answers": {
@@ -66,3 +67,4 @@ src/
    "category": "tecnologia"
    }
    }
+```
